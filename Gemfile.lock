@@ -114,6 +114,7 @@ GEM
       domain_name (~> 0.5)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
+    ipaddr (1.2.2)
     jbuilder (2.9.1)
       activesupport (>= 4.2.0)
     jwt (2.2.1)
@@ -141,13 +142,14 @@ GEM
     multi_json (1.14.1)
     multipart-post (2.1.1)
     netrc (0.11.0)
-    nio4r (2.5.2)
+    nio4r (2.5.8)
     nokogiri (1.10.7)
       mini_portile2 (~> 2.4.0)
     openssl (2.1.2)
+      ipaddr
     os (1.0.1)
     public_suffix (4.0.3)
-    puma (4.3.1)
+    puma (4.3.9)
       nio4r (~> 2.0)
     rack (2.1.2)
     rack-cors (1.0.3)
@@ -269,7 +271,7 @@ DEPENDENCIES
   jwt
   listen (>= 3.0.5, < 3.2)
   openssl (~> 2.1)
-  puma (~> 4.1)
+  puma (~> 4.3)
   rack-cors
   rails (~> 6.0.1)
   sass-rails (>= 6)
